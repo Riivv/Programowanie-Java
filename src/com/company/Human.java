@@ -1,6 +1,6 @@
 package com.company;
 
 public class Human {
-    String Animal_pet;
-
+    Animal pet;
+    Car bmw;
 }
