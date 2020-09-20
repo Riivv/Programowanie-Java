@@ -3,11 +3,12 @@ import java.util.Date;
 import devices.Car;
 
 public class Human {
+    static Integer size = 0;
     String dates[];
     Double salaries[];
     Animal pet;
     public Double cash = 0.0;
-    public Car bmw;
+    Car bmw;
     private Double salary=1000.0;
     private Integer checks = 0;
     public Car get_car()
@@ -17,7 +18,7 @@ public class Human {
     public void set_car()
     {
         if (bmw.value>this.salary/12) System.out.println("get a new job");
-        else if (bmw.value<this.salary) System.out.println("Me need a load for da car");
+        else if (bmw.value<this.salary) System.out.println("Me need a loan for da car");
         else System.out.println("I pay cash");
     }
 

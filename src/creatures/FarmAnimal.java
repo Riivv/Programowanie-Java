@@ -14,4 +14,9 @@ public class FarmAnimal extends Animal
         }
         prey.weight = 0;
     }
+
+    @Override
+    public void feed(double foodWeight) {
+
+    }
 }
