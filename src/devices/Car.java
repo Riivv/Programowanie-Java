@@ -1,8 +1,9 @@
-package com.company;
+package devices;
 
 public class Car
 {
     public static int mass = 1000;
+    public Double value;
 
     public Car (String Model, String Producer, Double value)
     {
@@ -10,9 +11,13 @@ public class Car
         this.producer = Producer;
         this.value = value;
     }
+    public String toString()
+    {
+        return model+" "+producer+" "+value;
+    }
     String model;
     String producer;
-    Double value;
+
 
 
 

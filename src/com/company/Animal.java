@@ -12,6 +12,7 @@ public class Animal
             weight = dog_weight;
 
     }
+
     void feed()
     {
         if(this.weight<=0)

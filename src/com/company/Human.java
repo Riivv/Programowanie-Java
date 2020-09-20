@@ -1,12 +1,12 @@
 package com.company;
 import java.util.Date;
-
+import devices.Car;
 
 public class Human {
     String dates[];
     Double salaries[];
     Animal pet;
-    private Car bmw;
+    public Car bmw;
     private Double salary=1000.0;
     private Integer checks = 0;
     public Car get_car()
@@ -44,5 +44,9 @@ public class Human {
             System.out.println("US and ZUS already know your salary so no point in hiding it");
             }
 
+    }
+    public String toString()
+    {
+        return bmw+" "+salary+" "+checks;
     }
 }
