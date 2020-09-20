@@ -6,9 +6,20 @@ public class Human {
     String dates[];
     Double salaries[];
     Animal pet;
-    Car bmw;
+    private Car bmw;
     private Double salary=1000.0;
     private Integer checks = 0;
+    public Car get_car()
+    {
+        return this.bmw;
+    }
+    public void set_car()
+    {
+        if (bmw.value>this.salary/12) System.out.println("get a new job");
+        else if (bmw.value<this.salary) System.out.println("Me need a load for da car");
+        else System.out.println("I pay in cash");
+    }
+
     public Double get_salary()
     {
 
