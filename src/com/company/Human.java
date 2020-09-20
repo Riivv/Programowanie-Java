@@ -6,6 +6,7 @@ public class Human {
     String dates[];
     Double salaries[];
     Animal pet;
+    public Double cash = 0.0;
     public Car bmw;
     private Double salary=1000.0;
     private Integer checks = 0;

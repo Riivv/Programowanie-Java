@@ -3,7 +3,25 @@ package com.company;
 public class Animal
 {
 
+    void sell(Human seller, Human buyer, Double price)
+    {
+        Animal item = seller.pet;
 
+        if(seller.pet==null)
+        {
+            System.out.println("Seller has no animal");
+        }
+        if(buyer.cash<price)
+        {
+            System.out.println("Buyer has no cash");
+        }
+        buyer.cash =- price;
+        seller.cash =+ price;
+        seller.pet = null;
+        buyer.pet = item;
+        System.out.println( seller+" just sold "+ item + " to " + buyer + " for " + price);
+        //człowiek moze posiadać zwierzę, ale human nie ma nic wspólnego z klasą animal poza tym (no moze jeszcze package)
+    }
     private double weight;
     static final Double dog_weight = 12.0;
     public Animal(String spiecies)
