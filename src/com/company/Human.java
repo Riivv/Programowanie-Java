@@ -17,7 +17,7 @@ public class Human {
     {
         if (bmw.value>this.salary/12) System.out.println("get a new job");
         else if (bmw.value<this.salary) System.out.println("Me need a load for da car");
-        else System.out.println("I pay in cash");
+        else System.out.println("I pay cash");
     }
 
     public Double get_salary()
