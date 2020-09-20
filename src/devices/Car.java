@@ -1,6 +1,6 @@
 package devices;
 
-public class Car extends Device
+abstract public class Car extends Device
 {
     public static int mass = 1000;
     public Double value;
@@ -18,11 +18,12 @@ public class Car extends Device
     String model;
     String producer;
     @Override
-    public void turnON()
-    {
-        if(mode==false)
-            mode=true;
+    public void turnON() {
+        if (mode == false)
+            mode = true;
     }
+    abstract void refuel();
+
 
 
 
