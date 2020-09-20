@@ -12,7 +12,7 @@ public class Main {
         Car bmw1 = new Car("E46", "BMW", 1000.0);
         System.out.println(bmw1.equals(bmw));
         Car.mass = 1200;
-
+        bmw.turnON();
 
 
 
