@@ -4,6 +4,10 @@ public class Main {
 
     public static void main(String[] args)
     {
+        Human ja = new Human();
+        ja.set_salary(-1200);
+
+
         Car bmw = new Car("E46", "BMW");
         Car.mass = 1200;
         Animal dog = new Animal("dog");
