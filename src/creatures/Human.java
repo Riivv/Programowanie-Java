@@ -1,4 +1,4 @@
-package com.company;
+package creatures;
 import java.util.Date;
 import devices.Car;
 

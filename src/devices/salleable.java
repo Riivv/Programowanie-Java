@@ -1,5 +1,6 @@
 package devices;
-import com.company.Human;
+import creatures.Human;
+import creatures.Animal;
 
 
 public interface salleable
