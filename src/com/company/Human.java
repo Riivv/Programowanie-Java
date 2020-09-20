@@ -30,7 +30,7 @@ public class Human {
             this.salary = newsalary;
             System.out.println("New salary sent to book keepers");
             System.out.println("You have to get contract annex from Mrs Hania from HR");
-            System.out.println("ZUS and US already know your salary so no point in hiding it");
+            System.out.println("US and ZUS already know your salary so no point in hiding it");
             }
 
     }
